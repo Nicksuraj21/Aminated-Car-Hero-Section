@@ -1,0 +1,40 @@
+.nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 25px 100px;
+    color: white;
+}
+
+.nav-logo{
+    font-family: Outfit;
+    font-size: 35px;
+    font-weight: 500;
+}
+
+.nav-menu{
+    display: flex;
+    align-items: center;
+    list-style: none;
+    font-size: 18px;
+    gap: 85px;
+}
+
+.nav-menu li{
+    cursor: pointer;
+    /* border: 2px solid red; */
+}
+
+.nav-contact{
+    background: transparent;
+    border: 2px solid white;
+    color: white;
+    padding: 8px 38px;
+    border-radius: 50px;
+    font-weight: 500;
+    transition: all 0.4s ease-out;
+}
+
+.nav-contact:hover{
+    background: #2626267f;
+}
